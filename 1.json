@@ -1,0 +1,80 @@
+{
+  "order": {
+    "purchaser": {
+      "first_name": "Antoni",
+      "last_name": "Krąpczyński",
+      "addresses": [
+        {
+          "street": "Starodębowa",
+          "isActual": false
+        },
+        {
+          "street": "Kromera",
+          "isActual": false
+        },
+        {
+          "street": "Mirtowa",
+          "isActual": true
+        }
+      ]
+    },
+    "products": [
+      {
+        "id": "3adwe-4qwew-2fdsd-3fdsdf-4098",
+        "name": "firstProduct",
+        "title": "1st PRODUCT",
+        "price": 1234.00,
+        "group": "first",
+        "quantity": 5
+      },
+      {
+        "id": "3art-1twew-5fdsd-dfsd-1298",
+        "name": "secondProduct",
+        "title": "2nd PRODUCT",
+        "price": 152.00,
+        "group": "second",
+        "quantity": 10
+      },
+      {
+        "id": "3adwe-4qwew-2fdsd-fdsd-0988",
+        "name": "thirdProduct",
+        "title": "3rd PRODUCT",
+        "group": "third",
+        "price": 222.05,
+        "quantity": 16
+      },
+      {
+        "id": "svcs-4erw-2fdsd-1233-0765",
+        "name": "fourthProduct",
+        "title": "4th PRODUCT",
+        "group": "second",
+        "price": 2678,
+        "quantity": 1
+      },
+      {
+        "id": "123f-1sad-2fdsd-bcsd-2312",
+        "name": "fourthProduct",
+        "title": "4th PRODUCT",
+        "group": "first",
+        "price": 222,
+        "quantity": 11
+      },
+      {
+        "id": "3wda-bhda-12ds-sdcs-0765",
+        "name": "fifthProduct",
+        "title": "4th PRODUCT",
+        "group": "first",
+        "price": 261,
+        "quantity": 4
+      },
+      {
+        "id": "3adwe-4qwew-2fdsd-fdsd-0988",
+        "name": "sixth",
+        "title": "3rd PRODUCT",
+        "group": "third",
+        "price": 222.05,
+        "quantity": 16
+      }
+    ]
+  }
+}

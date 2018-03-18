@@ -4,6 +4,6 @@
 public class Main {
     public static void main(String[] args) {
         OrderDataAnalyzer orderDataAnalyzer = new OrderDataAnalyzer();
-        orderDataAnalyzer.analyze("/home/kasia/Pulpit/1.json");
+        orderDataAnalyzer.analyze("1.json");
     }
 }
