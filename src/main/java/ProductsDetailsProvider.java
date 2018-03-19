@@ -33,9 +33,23 @@ public class ProductsDetailsProvider {
         Map<String, Integer> groupQuantityMap = productsGroup(products);
         return groupQuantityMap.entrySet().stream()
                 .max(Comparator.comparing(Map.Entry::getValue))
-                .map((stringIntegerEntry) -> stringIntegerEntry.getKey())
+                .map(Map.Entry::getKey)
                 .get();
 
 
+    }
+
+    public String bestsellerProduct(List<Product> products) {
+        return products.stream()
+                .max(Comparator.comparing(Product::getQuantity))
+                .map(Product::getName)
+                .get();
+    }
+
+    public String dearestProductSearch(List<Product> products) {
+        return products.stream()
+                .max(Comparator.comparing(Product::getPrice))
+                .map(Product::getName)
+                .get();
     }
 }

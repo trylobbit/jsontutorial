@@ -6,7 +6,8 @@ import java.util.List;
 
 public class PurchaserDetailsProvider {
 
-    public void printPurchaserDetails(Order order) {
+
+    public ActualPurchaserDetails createPurchaserDetails(Order order) {
         String firstName = order.getPurchaser().getFirst_name();
         String lastName = order.getPurchaser().getLast_name();
         Address actualAddress = null;
@@ -17,6 +18,8 @@ public class PurchaserDetailsProvider {
                 actualAddress = adr;
             }
         }
-        System.out.println(firstName + ' ' + lastName + ' ' + actualAddress.getStreet());
+//        System.out.println(firstName + ' ' + lastName + ' ' + actualAddress.getStreet());
+        return new ActualPurchaserDetails(firstName, lastName, actualAddress.getStreet());
+
     }
 }
